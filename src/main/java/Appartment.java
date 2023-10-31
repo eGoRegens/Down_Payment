@@ -6,7 +6,7 @@ public class Appartment {
         final int downPaymentInteger = (int) downPaymentAmount;  //округление до целочисленного
 
         System.out.println("Стоимость квартиры составляет " + apartmentPrice + " у.е.");
-        System.out.println("Требуемый процент первоначального взноса " + downPaymentPercentage + "% от стоимости квартиры.");
+        System.out.println("Требуемый процент первоначального взноса " + downPaymentPercentage + " % от стоимости квартиры.");
         System.out.println("Сумма первоначального взноса составит = " + downPaymentInteger + " у.е.");
     }
 }
