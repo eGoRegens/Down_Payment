@@ -4,10 +4,9 @@ public class Appartment {
         final double downPaymentPercentage = 15.5;
 
         final double downPaymentAmount = (apartmentPrice * downPaymentPercentage) / 100;  // сумма первоначального взноса
-        final int downPaymentInteger = (int) downPaymentAmount;  //округление до целочисленного
 
         System.out.println("Стоимость квартиры составляет " + apartmentPrice + " у.е.");
         System.out.println("Требуемый процент первоначального взноса " + downPaymentPercentage + " % от стоимости квартиры.");
-        System.out.println("Сумма первоначального взноса составит = " + downPaymentInteger + " у.е.");
+        System.out.println("Сумма первоначального взноса составит = " + downPaymentAmount + " у.е.");
     }
 }
