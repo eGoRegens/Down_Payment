@@ -2,6 +2,7 @@ public class Appartment {
     public static void main(String[] args) {
         final int apartmentPrice = 8900000;
         final double downPaymentPercentage = 15.5;
+
         final double downPaymentAmount = (apartmentPrice * downPaymentPercentage) / 100;  // сумма первоначального взноса
         final int downPaymentInteger = (int) downPaymentAmount;  //округление до целочисленного
 
